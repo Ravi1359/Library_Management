@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book_online">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/computer_network"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:onClick="cn"
+            android:elevation="20dp"
+            android:text="Computer Network"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/opertating_system"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:onClick="os"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:text="Operating System"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/dbms"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:onClick="db"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:text="DBMS"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/data_structure"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:onClick="ds"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:text="Data Structures"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/mob_dev"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:onClick="md"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:text="Moblie Development"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/oops"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:onClick="oo"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:text="OOPS"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/unix"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:onClick="un"
+            android:background="@drawable/btnshap0"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:text="Unix"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

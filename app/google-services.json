@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "777348610211",
+    "project_id": "imagine-lib",
+    "storage_bucket": "imagine-lib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777348610211:android:69f610fddce87844486716",
+        "android_client_info": {
+          "package_name": "com.example.librarymanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777348610211-ka9g8rntnp2ut9m2jfrvdr0g96751qgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.librarymanagementsystem",
+            "certificate_hash": "a8543a7730934439757698023ac18a5d667314b1"
+          }
+        },
+        {
+          "client_id": "777348610211-vnthao2s7jtjd2s5loakt51tvt9hp9da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWrTW7hA6_7moRbyHf0ON_isZJs24wYVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777348610211-vnthao2s7jtjd2s5loakt51tvt9hp9da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
